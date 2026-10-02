@@ -1,0 +1,2 @@
+if ["isac"]:
+    print("print")
