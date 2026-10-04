@@ -1,7 +1,7 @@
 def divide(a):
-    if 0 < len(a) < 2:
+    if len(a) == 0 or len(a) == 1:
         return a
-        
+
     mid = len(a) // 2
     left = divide(a[:mid])
     right = divide(a[mid:])
